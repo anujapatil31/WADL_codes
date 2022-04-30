@@ -1,0 +1,561 @@
+Microsoft Windows [Version 10.0.19043.1645]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\anuja\Desktop\New folder>git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recursive ...       alias of --recurse-submodules
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+
+
+C:\Users\anuja\Desktop\New folder>git clone https://github.com/anujapatil31/WADL_codes.git
+Cloning into 'WADL_codes'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\anuja\Desktop\New folder>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\anuja\Desktop\New folder>cd WADL_codes
+
+C:\Users\anuja\Desktop\New folder\WADL_codes>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignment_1/
+        Assignment_2/
+        Assignment_5/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\anuja\Desktop\New folder\WADL_codes>git add .
+warning: LF will be replaced by CRLF in Assignment_1/contact.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/css/style.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_alert.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_badge.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_breadcrumb.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_button-group.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_buttons.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_card.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_carousel.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_close.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_code.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_custom-forms.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_dropdown.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_forms.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_functions.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_grid.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_images.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_input-group.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_jumbotron.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_list-group.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_media.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_mixins.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_modal.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_nav.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_navbar.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_pagination.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_popover.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_print.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_progress.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_reboot.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_root.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_spinners.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_tables.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_toasts.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_tooltip.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_transitions.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_type.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_utilities.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/_variables.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/bootstrap-grid.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/bootstrap-reboot.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/bootstrap.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_alert.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_background-variant.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_badge.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_border-radius.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_box-shadow.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_breakpoints.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_buttons.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_caret.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_clearfix.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_deprecate.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_float.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_forms.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_gradients.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_grid-framework.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_grid.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_hover.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_image.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_list-group.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_lists.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_nav-divider.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_pagination.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_reset-text.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_resize.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_screen-reader.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_size.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_table-row.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_text-emphasis.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_text-hide.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_text-truncate.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_transition.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/mixins/_visibility.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_align.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_background.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_borders.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_clearfix.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_display.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_embed.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_flex.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_float.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_interactions.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_overflow.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_position.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_screenreaders.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_shadows.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_sizing.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_spacing.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_stretched-link.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_text.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/utilities/_visibility.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/bootstrap/scss/vendor/_rfs.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_1/scss/style.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_components/alert.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_content/app.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_helpers/auth.guard.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_helpers/error.interceptor.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_helpers/fake-backend.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_helpers/index.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_helpers/jwt.interceptor.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_models/user.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_services/alert.service.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_services/authentication.service.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_services/index.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/_services/user.service.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/app.routing.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/home/home.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/home/home.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/login/login.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/login/login.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/register/register.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/app/register/register.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/src/typings.d.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Assignment_5/webpack.config.js.
+The file will have its original line endings in your working directory
+
+C:\Users\anuja\Desktop\New folder\WADL_codes>git commit -m "Added the required files"
+[master (root-commit) f681cf7] Added the required files
+ 184 files changed, 37503 insertions(+)
+ create mode 100644 Assignment_1/contact.html
+ create mode 100644 Assignment_1/css/style.css
+ create mode 100644 Assignment_1/css/style.min.css
+ create mode 100644 Assignment_1/img/carousel-1.jpg
+ create mode 100644 Assignment_1/img/carousel-2.jpg
+ create mode 100644 Assignment_1/img/cat-1.jpg
+ create mode 100644 Assignment_1/img/cat-2.jpg
+ create mode 100644 Assignment_1/img/cat-3.jpg
+ create mode 100644 Assignment_1/img/cat-4.jpg
+ create mode 100644 Assignment_1/img/cat-5.jpg
+ create mode 100644 Assignment_1/img/cat-6.jpg
+ create mode 100644 Assignment_1/img/payments.png
+ create mode 100644 Assignment_1/img/product-1.jpg
+ create mode 100644 Assignment_1/img/product-2.jpg
+ create mode 100644 Assignment_1/img/product-3.jpg
+ create mode 100644 Assignment_1/img/product-4.jpg
+ create mode 100644 Assignment_1/img/productf-1.jpg
+ create mode 100644 Assignment_1/img/productf-2.jpg
+ create mode 100644 Assignment_1/img/productf-3.jfif
+ create mode 100644 Assignment_1/img/productf-4.jpg
+ create mode 100644 Assignment_1/img/productf-5.jfif
+ create mode 100644 Assignment_1/img/productf-6.jpg
+ create mode 100644 Assignment_1/img/productf-7.jpg
+ create mode 100644 Assignment_1/img/productf-8.jfif
+ create mode 100644 Assignment_1/img/products-1.jpg
+ create mode 100644 Assignment_1/img/products-2.jpg
+ create mode 100644 Assignment_1/img/products-3.jpg
+ create mode 100644 Assignment_1/img/products-4.jpg
+ create mode 100644 Assignment_1/img/products-5.jpg
+ create mode 100644 Assignment_1/img/products-6.jfif
+ create mode 100644 Assignment_1/img/products-7.jpg
+ create mode 100644 Assignment_1/img/products-8.jpg
+ create mode 100644 Assignment_1/img/productv-1.jfif
+ create mode 100644 Assignment_1/img/productv-2.jpg
+ create mode 100644 Assignment_1/img/productv-3.jpg
+ create mode 100644 Assignment_1/img/productv-4.jfif
+ create mode 100644 Assignment_1/img/productv-5.jpg
+ create mode 100644 Assignment_1/img/productv-6.png
+ create mode 100644 Assignment_1/img/productv-7.jpg
+ create mode 100644 Assignment_1/img/productv-8.jpg
+ create mode 100644 Assignment_1/img/stats.png
+ create mode 100644 Assignment_1/img/stats2.png
+ create mode 100644 Assignment_1/img/user.jpg
+ create mode 100644 Assignment_1/img/vendor-1.jpg
+ create mode 100644 Assignment_1/img/vendor-2.jpg
+ create mode 100644 Assignment_1/img/vendor-3.jpg
+ create mode 100644 Assignment_1/img/vendor-4.jpg
+ create mode 100644 Assignment_1/img/vendor-5.jpg
+ create mode 100644 Assignment_1/img/vendor-6.jpg
+ create mode 100644 Assignment_1/img/vendor-7.jpg
+ create mode 100644 Assignment_1/img/vendor-8.jpg
+ create mode 100644 Assignment_1/index.html
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_alert.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_badge.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_breadcrumb.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_button-group.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_buttons.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_card.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_carousel.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_close.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_code.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_custom-forms.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_dropdown.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_forms.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_functions.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_grid.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_images.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_input-group.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_jumbotron.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_list-group.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_media.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_mixins.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_modal.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_nav.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_navbar.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_pagination.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_popover.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_print.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_progress.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_reboot.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_root.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_spinners.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_tables.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_toasts.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_tooltip.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_transitions.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_type.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_utilities.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/_variables.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/bootstrap-grid.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/bootstrap-reboot.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/bootstrap.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_alert.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_background-variant.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_badge.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_border-radius.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_box-shadow.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_breakpoints.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_buttons.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_caret.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_clearfix.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_deprecate.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_float.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_forms.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_gradients.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_grid-framework.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_grid.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_hover.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_image.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_list-group.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_lists.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_nav-divider.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_pagination.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_reset-text.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_resize.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_screen-reader.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_size.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_table-row.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_text-emphasis.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_text-hide.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_text-truncate.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_transition.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/mixins/_visibility.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_align.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_background.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_borders.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_clearfix.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_display.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_embed.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_flex.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_float.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_interactions.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_overflow.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_position.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_screenreaders.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_shadows.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_sizing.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_spacing.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_stretched-link.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_text.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/utilities/_visibility.scss
+ create mode 100644 Assignment_1/scss/bootstrap/scss/vendor/_rfs.scss
+ create mode 100644 Assignment_1/scss/style.scss
+ create mode 100644 Assignment_2/index.html
+ create mode 100644 Assignment_2/script.js
+ create mode 100644 Assignment_5/.gitignore
+ create mode 100644 Assignment_5/LICENSE
+ create mode 100644 Assignment_5/README.md
+ create mode 100644 Assignment_5/package-lock.json
+ create mode 100644 Assignment_5/package.json
+ create mode 100644 Assignment_5/src/app/_components/alert.component.html
+ create mode 100644 Assignment_5/src/app/_components/alert.component.ts
+ create mode 100644 Assignment_5/src/app/_components/index.ts
+ create mode 100644 Assignment_5/src/app/_content/app.less
+ create mode 100644 Assignment_5/src/app/_helpers/auth.guard.ts
+ create mode 100644 Assignment_5/src/app/_helpers/error.interceptor.ts
+ create mode 100644 Assignment_5/src/app/_helpers/fake-backend.ts
+ create mode 100644 Assignment_5/src/app/_helpers/index.ts
+ create mode 100644 Assignment_5/src/app/_helpers/jwt.interceptor.ts
+ create mode 100644 Assignment_5/src/app/_models/index.ts
+ create mode 100644 Assignment_5/src/app/_models/user.ts
+ create mode 100644 Assignment_5/src/app/_services/alert.service.ts
+ create mode 100644 Assignment_5/src/app/_services/authentication.service.ts
+ create mode 100644 Assignment_5/src/app/_services/index.ts
+ create mode 100644 Assignment_5/src/app/_services/user.service.ts
+ create mode 100644 Assignment_5/src/app/app.component.html
+ create mode 100644 Assignment_5/src/app/app.component.ts
+ create mode 100644 Assignment_5/src/app/app.module.ts
+ create mode 100644 Assignment_5/src/app/app.routing.ts
+ create mode 100644 Assignment_5/src/app/home/home.component.html
+ create mode 100644 Assignment_5/src/app/home/home.component.ts
+ create mode 100644 Assignment_5/src/app/home/index.ts
+ create mode 100644 Assignment_5/src/app/login/index.ts
+ create mode 100644 Assignment_5/src/app/login/login.component.html
+ create mode 100644 Assignment_5/src/app/login/login.component.ts
+ create mode 100644 Assignment_5/src/app/register/index.ts
+ create mode 100644 Assignment_5/src/app/register/register.component.html
+ create mode 100644 Assignment_5/src/app/register/register.component.ts
+ create mode 100644 Assignment_5/src/index.html
+ create mode 100644 Assignment_5/src/main.ts
+ create mode 100644 Assignment_5/src/polyfills.ts
+ create mode 100644 Assignment_5/src/typings.d.ts
+ create mode 100644 Assignment_5/tsconfig.json
+ create mode 100644 Assignment_5/webpack.config.js
+
+C:\Users\anuja\Desktop\New folder\WADL_codes>git push
+Enumerating objects: 207, done.
+Counting objects: 100% (207/207), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (198/198), done.
+Writing objects: 100% (207/207), 5.60 MiB | 1.36 MiB/s, done.
+Total 207 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/anujapatil31/WADL_codes.git
+ * [new branch]      master -> master
+
+C:\Users\anuja\Desktop\New folder\WADL_codes>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignment_4/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\anuja\Desktop\New folder\WADL_codes>git add .
+
+C:\Users\anuja\Desktop\New folder\WADL_codes>git commit -m "Added the docker image screenshot image"
+[master 9bd2b14] Added the docker image screenshot image
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Assignment_4/docker.png
+
+C:\Users\anuja\Desktop\New folder\WADL_codes>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 296.10 KiB | 17.42 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/anujapatil31/WADL_codes.git
+   f681cf7..9bd2b14  master -> master
+
+C:\Users\anuja\Desktop\New folder\WADL_codes>
